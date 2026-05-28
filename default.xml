@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="mika"
+          fetch="https://github.com/MSM-Eldarion"
+          revision="lineage-20.0" />
+
+  <project path="kernel" name="android_kernel_qcom_msm8956" groups="device" remote="mika" revision="lineage-20"/>
+  <project path="kernel/arch/arm64/boot/dts/vendor-legacy" name="kernel_devicetree_msm-4.19" groups="device" remote="mika" revision="main"/>
+  <project path="kernel/drivers/staging/prima" name="vendor_qcom_opensource_wlan_prima" groups="device" remote="mika" revision="wlan/LA.UM.9.6.4/mithorium/master"/>
+  <project path="kernel/techpack/xiaomi-eldarion" name="kernel_techpack_xiaomi-eldarion" groups="device" remote="mika" revision="main"/>
+  <project path="kernel/techpack/audio-legacy" name="kernel_techpack_audio-legacy" groups="device" remote="mika" revision="audio/4.19/master"/>
+</manifest>
